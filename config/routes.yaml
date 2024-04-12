@@ -1,0 +1,14 @@
+main:
+  path: /main
+  controller: 'App\Controller\MainController::index'
+start:
+  path: /start/{name?}
+  controller: 'App\Controller\MainController::start'
+                        #nombreControlador::Nombre Funcion
+view:
+  path: /view
+  controller: 'App\Controller\ViewController::index'
+
+article:
+  path: /article
+  controller: 'App\Controller\ArticleController::index'
